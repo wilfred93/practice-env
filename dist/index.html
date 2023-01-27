@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <link href="glide.core.css" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script> -->
+</head>
+<body>
+  <div class="tw-container py-5 mx-auto">
+    <header class="text-center mt-4 mb-8">
+      <p class="font-bold lg:font-normal">Glide.js PoC </p>      
+      </h1>
+    </header>
+    <div data-glide-el="controls" class="glide">
+      <div  data-glide-el="track" class="glide__track">
+        <ul class="grid grid-cols-4 mt-3 glide__slides ">
+          <li class="glide__slide">
+            <a class=" block pt-4 border-solid border border-white-300 rounded-lg hover:border-black" href="">
+              <img class="mx-auto w-20 h-20 sm:w-24 sm:h-24  md:w-28 md:h-28 lg:w-32 lg:h-32  mb-2" src="img/smarphones.png" alt="">
+              <div class="h-12 flex items-center justify-center">
+                <h3 class="font-semibold leading-5 text-xs sm:text-sm mb-2">Smartphones</h3>
+              </div>
+            </a>
+          </li>
+          <li class="glide__slide">
+            <a class=" block pt-4 border-solid border border-white-300 rounded-lg hover:border-black" href="">
+              <img class="mx-auto w-20 h-20 sm:w-24 sm:h-24  md:w-28 md:h-28 lg:w-32 lg:h-32  mb-2" src="img/Tablets.png" alt="">
+              <div class="h-12 flex items-center justify-center">
+                <h3 class="font-semibold leading-5 text-xs sm:text-sm mb-2">Tablets</h3>
+              </div>
+            </a>
+          </li>
+          <li class="glide__slide">
+            <a class=" block pt-4 border-solid border border-white-300 rounded-lg hover:border-black" href="">
+              <img class="mx-auto w-20 h-20 sm:w-24 sm:h-24  md:w-28 md:h-28 lg:w-32 lg:h-32  mb-2" src="img/laptops.png" alt="">
+              <div class="h-12 flex items-center justify-center">
+                <h3 class="font-semibold leading-5 text-xs sm:text-sm mb-2">Labtops</h3>
+              </div>
+            </a>
+          </li>
+          <li class="glide__slide">
+            <a class=" block pt-4 border-solid border border-white-300 rounded-lg hover:border-black" href="">
+              <img class="mx-auto w-20 h-20 sm:w-24 sm:h-24  md:w-28 md:h-28 lg:w-32 lg:h-32  mb-2" src="img/smartwatches.png" alt="">
+              <div class="h-12 flex items-center justify-center">
+                <h3 class="font-semibold leading-5 text-xs sm:text-sm mb-2">Smartwatches</h3>
+              </div>
+            </a>
+          </li>
+          <li class="glide__slide">
+            <a class=" block pt-4 border-solid border border-white-300 rounded-lg hover:border-black" href="">
+              <img class="mx-auto w-20 h-20 sm:w-24 sm:h-24  md:w-28 md:h-28 lg:w-32 lg:h-32  mb-2" src="img/audio.png" alt="">
+              <div class="h-12 flex items-center justify-center">
+                <h3 class="font-semibold leading-5 text-xs sm:text-sm mb-2">Audio</h3>
+              </div>
+            </a>
+          </li>
+                    <li class="glide__slide">
+            <a class=" block pt-4 border-solid border border-white-300 rounded-lg hover:border-black" href="">
+              <img class="mx-auto w-20 h-20 sm:w-24 sm:h-24  md:w-28 md:h-28 lg:w-32 lg:h-32  mb-2" src="img/kitchen.png" alt="">
+              <div class="h-12 flex items-center justify-center">
+                <h3 class="font-semibold leading-5 text-xs sm:text-sm mb-2">Kitchen Appliances</h3>
+              </div>
+            </a>
+          </li>
+      </div>
+      <div data-glide-el="controls" class="absolute w-full hidden sm:block " style="top: calc(50% - 20px)">
+        <button class="glide__arrow glide__arrow--left absolute border border-white-300 bg-white rounded-full h-10 w-10 -left-5 hover:border-black " data-glide-dir="<">
+          <
+        </button>
+        <button class="glide__arrow glide__arrow--right absolute border border-white-300 bg-white rounded-full h-10 w-10 -right-5 hover:border-black" data-glide-dir=">">></button>
+      </div>
+    </div>
+  </div>
+  <script src="glide.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

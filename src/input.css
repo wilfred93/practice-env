@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("../node_modules/@glidejs/glide/dist/css/glide.core.min.css");
+
+@media (min-width: 640px) {
+    .tw-container {
+        max-width: 640px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .tw-container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .tw-container {
+        max-width: 1280px;
+    }
+}
+
+
+.tw-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}

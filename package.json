@@ -1,0 +1,19 @@
+{
+  "name": "glide",
+  "version": "1.0.0",
+  "description": "Testing glid library",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "http-server ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
